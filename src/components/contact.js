@@ -32,18 +32,23 @@ export default class Contact extends Component {
                         <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent icon="person" className="ListItemContent">
-                                        <i className="fas fa-phone"></i> 188 8897 2045
+                                    <ListItemContent className="ListItemContent">
+                                        <i className="fas fa-phone"></i> +(86) 188 8897 2045
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent icon="person" className="ListItemContent">
-                                        <i className="fas fa-phone"></i> 188 8897 2045
+                                    <ListItemContent className="ListItemContent">
+                                        <i className="fab fa-weixin"></i> WeChat ID: Pathington
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent icon="person" className="ListItemContent">
-                                        <i className="fas fa-phone"></i> 188 8897 2045
+                                    <ListItemContent className="ListItemContent">
+                                        <i className="fas fa-envelope"></i> <a href="mailto:malabatalent@gmail.com">malabatalent@gmail.com</a>
+                                    </ListItemContent>
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemContent className="ListItemContent">
+                                        <i className="fab fa-skype"></i> Skype ID: malabamodel@live.com
                                     </ListItemContent>
                                 </ListItem>
                             </List>

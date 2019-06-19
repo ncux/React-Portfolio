@@ -78,7 +78,7 @@
 
 .contact-body {
     margin: auto;
-    background: grey;
+    /*background: grey;*/
     /*position: fixed;*/
     width: 100%;
     height: 100%;
@@ -93,7 +93,7 @@
     height: 600px;
     background: white;
     color: black;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     margin-bottom: 1.3rem;
 }
 
@@ -127,6 +127,43 @@
 }
 
 .contact-list .ListItemContent {
+    margin-left: 4rem;
     font-family: 'Times New Roman', sans-serif;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    line-height: 2.2;
+}
+
+.contact-list .ListItemContent i {
+    font-size: 2rem;
+    padding-right: 0.9rem;
+}
+
+.resume {
+
+}
+
+.resume header {
+    background-color: lightgray;
+}
+
+.resume a {
+    text-decoration: none;
+    text-decoration-color: aqua;
+}
+
+.resume a span {
+    text-decoration: none;
+    text-decoration-color: aqua;
+}
+
+.resume .code {
+    font-family: monospace;
+}
+
+.resume div h6 {
+    text-transform: uppercase;
+}
+
+.resume .italize {
+    font-style: italic;
 }

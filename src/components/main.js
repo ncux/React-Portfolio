@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 import Home from "./home";
-import Resume from "./resume";
+import Resume from "./resume/resume";
 import About from "./about_me";
 import Projects from "./projects";
 import Contact from "./contact";
